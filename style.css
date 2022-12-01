@@ -1,0 +1,20 @@
+.class1.class2 {
+    color: rgb(88, 247, 26);
+}    /*Sınıf özniteliği içinde hem class1 hem de class2 ayarlanmış tüm öğeleri seçer*/
+
+div, p {
+    background-color: rgb(170, 84, 84);
+}   /*Tüm <div> öğelerini ve tüm <p> öğelerini seçer*/
+
+div>p{
+   font-weight: 800;
+}   /*Ebeveynin bir <div> öğesi olduğu tüm <p> öğelerini seçer*/
+
+.span1 + h6 {
+    background-color: blueviolet;
+}   /*<div> öğelerinden hemen sonra yerleştirilen ilk <p> öğesini seçer*/
+
+
+
+
+
